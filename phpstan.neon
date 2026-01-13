@@ -30,5 +30,8 @@ parameters:
             message: '#Parameter \#4 \$nodeList of class Zend_Dom_Query_Result constructor expects DOMNodeList, DOMNodeList\|false given\.#'
             path: ./src/Zend/Dom/Query.php
         -
-            message: '#Argument of an invalid type DOMNodeList<DOMNode>\|false supplied for foreach, only iterables are supported\.#'
+            message: '#Argument of an invalid type DOMNodeList<DOMNameSpaceNode|DOMNode>\|false supplied for foreach, only iterables are supported\.#'
+            path: ./src/Zend/Dom/Query.php
+        -
+            message: '#Access to an undefined property DOMNameSpaceNode\|DOMNode::\$attributes\.#'
             path: ./src/Zend/Dom/Query.php
