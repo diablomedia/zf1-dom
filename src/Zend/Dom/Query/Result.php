@@ -118,7 +118,7 @@ class Zend_Dom_Query_Result implements Iterator, Countable
     /**
      * Iterator: rewind to first element
      *
-     * @return DOMNode|null
+     * @return DOMNode|DOMNameSpaceNode|null
      */
     #[\ReturnTypeWillChange]
     public function rewind()
@@ -144,7 +144,7 @@ class Zend_Dom_Query_Result implements Iterator, Countable
     /**
      * Iterator: return current element
      *
-     * @return DOMNode|null
+     * @return DOMNode|DOMNameSpaceNode|null
      */
     #[\ReturnTypeWillChange]
     public function current()
@@ -166,7 +166,7 @@ class Zend_Dom_Query_Result implements Iterator, Countable
     /**
      * Iterator: move to next element
      *
-     * @return DOMNode|null
+     * @return DOMNode|DOMNameSpaceNode|null
      */
     #[\ReturnTypeWillChange]
     public function next()
